@@ -11,14 +11,14 @@ a {
   color: #ffffff;
 }
 
-ul{
-    list-style: none;
-    text-align: center;
+ul {
+  list-style: none;
+  text-align: center;
 }
 
 header {
   width: 100%;
-  height: 197px;  
+  height: 197px;
   background-color: #1e1e1e;
   text-align: center;
 }
@@ -35,25 +35,53 @@ ul li {
   width: 100%;
 }
 
-.banner-disney img{
+.banner-disney img {
+  width: 100%;
+  height: 100%;
+}
+
+.filmes {
+  display: inline-block;
+  text-align: center;
+}
+
+.filmes figure {
     width: 100%;
-    height: 100%;
+  margin: 20px 138px;
 }
 
-.filmes{
-    display: inline-block;
-    text-align: center;
-    
+.filmes img {
+  width: 363px;
+  height: 523px;
+  margin: 53px;
 }
 
-.filmes figure{
-    width: 100%;
-    height: 100%;
-    margin: 20px 100px;
+footer {
+  height: 197px;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
 }
 
-.filmes img{
-    width: 363px;
-    height: 523px;
-    margin: 53px;
+.text-footer {
+  font-family: "Actor";
+  font-weight: 400;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.icones-footer {
+  display: inline-block;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.icones-footer img {
+  width: 78px;
+  height: 78px;
+  margin: 16px;
+  vertical-align: middle;
 }
