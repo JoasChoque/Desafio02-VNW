@@ -52,13 +52,11 @@ ul li {
 }
 
 .filmes {
-  display: inline-block;
   text-align: center;
 }
 
 .filmes figure {
   width: 100%;
-  margin: 20px 138px;
 }
 
 .filmes img {
